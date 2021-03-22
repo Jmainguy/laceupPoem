@@ -23,5 +23,5 @@ for ease of use in technology
 
 ```
 // write maintainable code and 
-raise exceptions when they break
+raise exceptions when things break
 ```
