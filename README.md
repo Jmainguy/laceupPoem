@@ -20,3 +20,8 @@ finally
 for ease of use in technology
     is something we should all strive for.
 ```
+
+```
+// write maintainable code and 
+raise exceptions when things break
+```
