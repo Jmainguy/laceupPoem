@@ -25,3 +25,9 @@ for ease of use in technology
 // write maintainable code and 
 raise exceptions when things break
 ```
+
+```
+run kubernetes
+current state, desired state
+it reconciled
+```
