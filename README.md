@@ -15,7 +15,6 @@ finally
     come together and build something awesome
 ```
 
-```
 
 ```
 for ease of use in technology
