@@ -29,5 +29,5 @@ raise exceptions when things break
 ```
 run kubernetes
 current state, desired state
-it reconciled
+it has reconciled
 ```
