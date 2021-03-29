@@ -31,3 +31,30 @@ run kubernetes
 current state, desired state
 it has reconciled
 ```
+
+```
+func main() {
+	slf := identity{}
+	go simulation(slf)
+}
+
+func simulation(slf identity) {
+	go slf.grow()
+	go slf.learn()
+	go slf.fail()
+	go slf.questionReality()
+	kiddos := make(chan identity)
+	go slf.childProcesses(kiddos)
+
+	select {
+	 case newSelf := <-kiddos:
+		go simulation(newSelf)
+	case <- time.After(time.Nanosecond):
+		fmt.Print("Mostly worrying about pointless things")
+	case <- time.After(TTL):
+		fmt.Printf("Goodybye")
+		return
+	}
+}
+```
+
